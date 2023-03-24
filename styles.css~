@@ -12,12 +12,14 @@ body {
   padding: 0 1rem;
 }
 
-/* Header and navigation menu */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+  background-image: url('header.png'); /* Replace with the URL of your image */
+  background-size: cover; /* Scale the background image to cover the entire header area */
+  background-position: center; /* Center the background image */
 }
 
 nav {

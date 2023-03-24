@@ -83,6 +83,18 @@ nav ul li a:hover {
   grid-gap: 1.5rem;
 }
 
+.tableauPlaceholder {
+  width: 100%;
+  max-width: 1000px; /* Maximum width of the visualization */
+  margin: 0 auto; /* Center the visualization on the page */
+  overflow: hidden; /* Hide any overflow if the visualization is resized */
+}
+
+.tableauViz {
+  width: 100% !important;
+  height: auto !important;
+}
+
 /* Footer */
 .footer {
   background-color: #f8f9fa;

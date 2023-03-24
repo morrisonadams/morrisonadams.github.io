@@ -1,53 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Morrison Adams Data - Visualizations</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualizations | Morrison Adams Data</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header class="header">
-        <h1><a href="index.html">Morrison Adams Data</a></h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="visualizations.html">Visualizations</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="main container">
-        <h2>Visualizations</h2>
-        
-        <!-- Visualization 1 -->
-        <section class="visualization">
-            <h3>Visualization 1 Title</h3>
-            <img src="path/to/visualization1.png" alt="Description of Visualization 1">
-            <p>
-                Brief blog post about Visualization 1. You can describe the data, the insights gained,
-                and any other relevant information about the visualization.
-            </p>
-        </section>
+  <header class="header container">
+    <h1>Morrison Adams Data</h1>
+    <nav>
+      <button id="navButton">Menu</button>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="visualizations.html">Visualizations</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <!-- Visualization 2 -->
-        <section class="visualization">
-            <h3>Visualization 2 Title</h3>
-            <img src="path/to/visualization2.png" alt="Description of Visualization 2">
-            <p>
-                Brief blog post about Visualization 2. You can describe the data, the insights gained,
-                and any other relevant information about the visualization.
-            </p>
-        </section>
+  <main class="main container">
+    <section class="visualization-post">
+      <!-- Tableau embed code -->
+      <div class='tableauPlaceholder' id='viz1679682472121' style='position: relative'>
+        <noscript>
+          <a href='http:&#47;&#47;morrisonadamsdata.ca&#47;FactratingPoliticalBias'>
+            <img alt='Bias and Fact Rating of Subreddits' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fa&#47;FactRatingPoliticalLeaningsofSubreddits&#47;BiasandFactRatingofSubreddits&#47;1_rss.png' style='border: none' />
+          </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+          <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='FactRatingPoliticalLeaningsofSubreddits&#47;BiasandFactRatingofSubreddits' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='yes' />
+          <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fa&#47;FactRatingPoliticalLeaningsofSubreddits&#47;BiasandFactRatingofSubreddits&#47;1.png' />
+          <param name='animate_transition' value='yes' />
+          <param name='display_static_image' value='yes' />
+          <param name='display_spinner' value='yes' />
+          <param name='display_overlay' value='yes' />
+          <param name='display_count' value='yes' />
+          <param name='language' value='en-US' />
+        </object>
+      </div>
+      <script type='text/javascript'>
+        var divElement = document.getElementById('viz1679682472121');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '1000px';
+        vizElement.style.height = '1227px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+      <!-- End of Tableau embed code -->
 
-        <!-- Add more visualizations as needed -->
-    </main>
-    <footer class="footer">
-        <p>&copy; 2023 Morrison Adams Data. All rights reserved.</p>
-        <p><a href="mailto:info@morrisonadamsdata.ca">info@morrisonadamsdata.ca</a></p>
-    </footer>
-    <script src="scripts.js"></script>
+      <article>
+        <h2>Blog Post Title</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa.</p>
+        <p>Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor.</p>
+        <p>Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh.</p>
+      </article>
+    </section>
+    <!-- ...Other visualization sections... -->
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2023 Morrison Adams Data. All rights reserved.</p>
+  </footer>
+  
+  <script src="scripts.js"></script>
 </body>
+
 </html>
