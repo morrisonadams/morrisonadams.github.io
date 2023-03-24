@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morrison Adams Data - Visualizations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1><a href="index.html">Morrison Adams Data</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main container">
+        <h2>Visualizations</h2>
+        
+        <!-- Visualization 1 -->
+        <section class="visualization">
+            <h3>Visualization 1 Title</h3>
+            <img src="path/to/visualization1.png" alt="Description of Visualization 1">
+            <p>
+                Brief blog post about Visualization 1. You can describe the data, the insights gained,
+                and any other relevant information about the visualization.
+            </p>
+        </section>
+
+        <!-- Visualization 2 -->
+        <section class="visualization">
+            <h3>Visualization 2 Title</h3>
+            <img src="path/to/visualization2.png" alt="Description of Visualization 2">
+            <p>
+                Brief blog post about Visualization 2. You can describe the data, the insights gained,
+                and any other relevant information about the visualization.
+            </p>
+        </section>
+
+        <!-- Add more visualizations as needed -->
+    </main>
+    <footer class="footer">
+        <p>&copy; 2023 Morrison Adams Data. All rights reserved.</p>
+        <p><a href="mailto:info@morrisonadamsdata.ca">info@morrisonadamsdata.ca</a></p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
