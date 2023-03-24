@@ -8,14 +8,52 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <!-- Add your website header content here -->
+    <header class="header">
+        <h1>Morrison Adams Data</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <!-- Add your website main content here -->
+    <main class="main container">
+        <h2>Welcome to Morrison Adams Data</h2>
+        <p>
+            We specialize in data analysis and visualization. Our team of experts works diligently to
+            help businesses make data-driven decisions that drive growth and success.
+        </p>
+
+        <h3>Our Services</h3>
+        <section class="grid">
+            <article>
+                <h4>Data Analysis</h4>
+                <p>
+                    Our data analysis services include data cleaning, processing, and statistical analysis.
+                    We help businesses identify patterns and trends, enabling them to make informed decisions.
+                </p>
+            </article>
+            <article>
+                <h4>Data Visualization</h4>
+                <p>
+                    We create visually engaging and easy-to-understand data visualizations that enable
+                    businesses to communicate complex data effectively to their stakeholders.
+                </p>
+            </article>
+            <article>
+                <h4>Machine Learning</h4>
+                <p>
+                    Our machine learning services help businesses harness the power of their data by
+                    creating predictive models that can automate decision-making processes.
+                </p>
+            </article>
+        </section>
     </main>
-    <footer>
-        <!-- Add your website footer content here -->
+    <footer class="footer">
+        <p>&copy; 2023 Morrison Adams Data. All rights reserved.</p>
+        <p><a href="mailto:info@morrisonadamsdata.ca">info@morrisonadamsdata.ca</a></p>
     </footer>
     <!-- Add your custom JavaScript file here -->
     <script src="scripts.js"></script>
