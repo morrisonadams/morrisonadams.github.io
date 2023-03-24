@@ -1,0 +1,109 @@
+/* Reset browser default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic typography settings */
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6495ed;
+}
+
+/* Container settings */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Flexbox-based layout for header and footer */
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.header {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  border-top: 1px solid #e7e7e7;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+/* Main content */
+.main {
+  padding: 2rem 0;
+}
+
+/* Navigation styles */
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  margin-right: 1rem;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+/* Grid-based layout for main content */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2rem;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .header, .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  nav li {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  nav li:last-child {
+    margin-bottom: 0;
+  }
+}
