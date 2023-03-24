@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morrison Adams Data</title>
+    <!-- Add your custom CSS file here -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Add your website header content here -->
+    </header>
+    <main>
+        <!-- Add your website main content here -->
+    </main>
+    <footer>
+        <!-- Add your website footer content here -->
+    </footer>
+    <!-- Add your custom JavaScript file here -->
+    <script src="scripts.js"></script>
+</body>
+</html>
