@@ -22,6 +22,16 @@ body {
   background-position: center; /* Center the background image */
   background-repeat: no-repeat; /* Prevent background image from repeating */
 }
+
+.parallax {
+  min-height: 400px; /* Adjust the height of the parallax image section */
+  background-image: url('placeholder.png'); /* Replace with the URL of your parallax image */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 nav {
   background-color: #f8f9fa; /* Light background color */
 }
