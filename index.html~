@@ -6,7 +6,18 @@
     <title>Morrison Adams Data</title>
     <!-- Add your custom CSS file here -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118024044-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118024044-1');
+    </script>
+
 </head>
+
 <body>
     <header class="header">
         <h1>Morrison Adams Data</h1>
