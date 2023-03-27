@@ -91,7 +91,7 @@ nav ul li a:hover {
 
 .tableauViz {
   width: 100% !important;
-  height: auto !important;
+  height: 800px !important;
 }
 
 /* Footer */
