@@ -30,7 +30,7 @@
         <p>Lorem.</p>
 
         <!-- Tableau embed code -->
-        <div class='tableauPlaceholder' id='viz1679682472121' style='position: relative; width: 100%; height: 800px'>
+        <div class='tableauPlaceholder' id='viz1679682472121' style='position: relative'>
           <noscript>
             <a href='http:&#47;&#47;morrisonadamsdata.ca&#47;FactratingPoliticalBias'>
               <img alt='Bias and Fact Rating of Subreddits ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Fa&#47;FactRatingPoliticalLeaningsofSubreddits&#47;BiasandFactRatingofSubreddits&#47;1_rss.png' style='border: none' />
@@ -57,8 +57,8 @@
         <script type='text/javascript'>
           var divElement = document.getElementById('viz1679682472121');
           var vizElement = divElement.getElementsByTagName('object')[0];
-          vizElement.style.width = '100%';
-          vizElement.style.height = '800px';
+          vizElement.style.width = 1000px;
+          vizElement.style.height = 1227px;
           var scriptElement = document.createElement('script');
           scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
           vizElement.parentNode.insertBefore(scriptElement, vizElement);
